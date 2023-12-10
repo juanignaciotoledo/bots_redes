@@ -1,0 +1,6 @@
+requests
+pycryptodome==3.14.1
+pystyle
+urllib3
+console-utils
+console
