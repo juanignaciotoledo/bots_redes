@@ -230,7 +230,7 @@ if __name__=='__main__':
 		parser.add_argument('-H','--headless',help='enable headless mode',action='store_true')
 		parser.add_argument('-s','--slow-start',help='enable slow start mode',action='store_true')
 		parser.add_argument('-du','--duration',help='set duration of view in seconds',type=float)
-		parser.add_argument('-p','--proxies',help='set path to file with proxies', default='http://viaduct.proxy.rlwy.net:34152', required=False)
+		parser.add_argument('-p','--proxies',help='set path to file with proxies')
 		parser.add_argument('-U','--user-agent',help='set user agent/set path to file with user agents')
 		parser.add_argument('-R','--referer',help='set referer/set path to file with referer',default='https://www.google.com')
 		parser.add_argument('-d','--debug',help='enable debug mode',action='store_true')
